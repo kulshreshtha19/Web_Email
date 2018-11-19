@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="email:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/email_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="email/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="email" />
+        </element>
+        <element id="library" level="project" name="poi-3.9-20121203" />
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="poi-3.9-20121203" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
